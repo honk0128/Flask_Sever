@@ -193,7 +193,7 @@ def menu_web_proc():
     return resp
 
     
-app.run(host="0.0.0.0", port=5000, debug=True)  # 0.0.0.0: 모든 Host 에서 접속 가능, python recommend_movie.py
+# app.run(host="0.0.0.0", port=5000, debug=True)  # 0.0.0.0: 모든 Host 에서 접속 가능, python recommend_movie.py
 
 '''
 cd openai
